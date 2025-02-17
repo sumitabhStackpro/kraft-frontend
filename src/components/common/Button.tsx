@@ -6,6 +6,7 @@ interface ButtonProps {
 }
 
 const Button: FC<ButtonProps> = ({ type, label }) => {
+  console.log(type);
   return (
     <div
       className={`py-2 px-6 border border-gray-200 transition-all rounded-full cursor-pointer group hover:border-pink-300 hover:bg-pink-300`}
