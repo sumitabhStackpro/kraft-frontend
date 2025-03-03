@@ -22,8 +22,7 @@ export default function Home() {
               </p>
             </div>
             <p className="text-[14px] font-medium w-2/3 text-gray-200 tracking-widest">
-              {`A platform for writers to share their stories, poems, and books –
-            and sell them at their own price.`}
+              {`Welcome to Kraft – a creative space for writers to publish novels, stories, and poems, set their own prices, and connect with readers worldwide.`}
             </p>
             <div className="flex gap-4 items-center">
               <Button type="primary" label="Start Writing" />
@@ -38,7 +37,36 @@ export default function Home() {
           {`A creative workspace with a laptop, books, and a cup of coffee.`}
         </p>
       </section>
-      <section className="w-screen h-screen bg-slate-100"></section>
+      <section className="w-screen h-screen bg-slate-100 px-[100px]">
+        <div className="flex w-full h-full items-center justify-center">
+          <div className="grid w-full grid-cols-3 gap-4">
+            <div className="h-[300px] flex flex-col justify-center items-center border group border-gray-100 transition-all duration-300 hover:bg-[#efd5d078] cursor-pointer shadow-md rounded-lg">
+              <p className="text-[30px] leading-[70px] font-semibold text-wrap transition-all duration-300 group-hover:text-pink-300 text-gray-200 tracking-widest text-left">
+                Write & Publish
+              </p>
+              <p className="text-[14px] w-2/3 text-center font-medium text-gray-200 tracking-widest">
+                {`Upload your stories, novels, or poems and decide how much to offer as a preview.`}
+              </p>
+            </div>
+            <div className="h-[300px] flex flex-col justify-center items-center border group border-gray-100 transition-all duration-300 hover:bg-[#efd5d078] cursor-pointer shadow-md rounded-lg">
+              <p className="text-[30px] leading-[70px] font-semibold text-wrap transition-all duration-300 group-hover:text-pink-300 text-gray-200 tracking-widest text-left">
+                Set Your Price
+              </p>
+              <p className="text-[14px] w-2/3 text-center font-medium text-gray-200 tracking-widest">
+                {`You control the pricing for your work, with full flexibility.`}
+              </p>
+            </div>
+            <div className="h-[300px] flex flex-col justify-center items-center border group border-gray-100 transition-all duration-300 hover:bg-[#efd5d078] cursor-pointer shadow-md rounded-lg">
+              <p className="text-[30px] leading-[70px] font-semibold text-wrap transition-all duration-300 group-hover:text-pink-300 text-gray-200 tracking-widest text-left">
+                Connect with Readers
+              </p>
+              <p className="text-[14px] w-2/3 text-center font-medium text-gray-200 tracking-widest">
+                {`Sell your stories, get feedback, and build your fanbase.`}
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
